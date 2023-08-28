@@ -1,1 +1,1 @@
-# Beth-AVAX-Module-2
+# eth-AVAX-Module-2
