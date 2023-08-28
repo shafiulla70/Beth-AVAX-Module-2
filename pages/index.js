@@ -118,8 +118,8 @@ export default function HomePage() {
       <div>
         <p>Your Account: {account}</p>
         <p>Your Balance: {balance}</p>
-        <button onClick={deposit}>Deposit 56 ETH</button>
-        <button onClick={withdraw}>Withdraw 34 ETH</button>
+        <button onClick={deposit}>Deposit 10 ETH</button>
+        <button onClick={withdraw}>Withdraw 10 ETH</button>
         <p>Contract Balance: {contractBalance}</p>
         <button onClick={getContractBalance}>Check Contract Balance</button>
         <button onClick={transferFunds}>Transfer Funds</button>
@@ -134,7 +134,7 @@ export default function HomePage() {
   return (
     <main className="container">
       <header>
-        <h1>This is Himanshu's Wallet</h1>
+        <h1>This is Shafi's Wallet</h1>
       </header>
       {initUser()}
       <style jsx>{`
